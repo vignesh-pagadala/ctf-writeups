@@ -1,0 +1,14 @@
+web 1  ictf{w41t_y0u_4r3_1nv1t3d??_29983213}
+
+https://ctftime.org/writeup/8464 invalid HTTP verb
+
+
+cool.hacker.8@gmail.com
+coolhax
+https://repo.zenk-security.com/wordlists/dump-ctf365.txt
+
+Lous Louis
+@change_899
+
++ http://142.93.209.130:8001/index.html (CODE:200|SIZE:836)                                                                  
++ http://142.93.209.130:8001/robots.txt (CODE:200|SIZE:57)     
