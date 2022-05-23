@@ -25,5 +25,6 @@ I wasn't exactly sure in what direction I had to proceed, but tried an SQL injec
 ![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Incognito%20CTF%202022/Web/Web%20Challenge%201/Screenshot%20from%202022-04-23%2008-59-43.png)
 
 
+### 2. Web Challenge 2
 
 
