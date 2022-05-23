@@ -27,9 +27,12 @@ I wasn't exactly sure in what direction I had to proceed, but tried an SQL injec
 ### 2. Web Challenge 2
 
 
-In the next page, we are giving a username-password login page. 
+In the next page, we are given a login page.
+
 ![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Incognito%20CTF%202022/Web/Web%20Challenge%201/Screenshot%20from%202022-04-23%2008-59-43.png)
+
 I immediately started scanning the page for an SQL injection vulnerability. Using sqlmap made this easier, but it was obvious that the input field was being filtered for SQL injection. So I tried typical filter-evasion techniques using encoded strings for the SQL OR and AND clauses. This approach worked, taking me to the next page with the flag.
+
 ![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Incognito%20CTF%202022/Web/Web%20Challenge%202/Screenshot%20from%202022-04-23%2011-46-41.png)
 
 
