@@ -77,3 +77,4 @@ After running for about 2 hours, the decryption key was revealed to be 694705124
 
 ## Misc
 ### 1. Gamer
+A file is provided, opening it reveals some sort of a JSON script, but I was unable to identify which application it belonged to. Copy-pasting a portion of the script in a search engine revealed it to be a Minecraft script that spawns objects in-game. I tried to find some sort of an online simulator that could render the JSON, but had no luck. Finally I decided to install a demo version of Minecraft to try the script. Ran Minecraft in Creator Mode, and figured I couldn't run large scripts using the command field. A bit of Googling showed I needed a 'Command Block' which I had to craft and insert the JSON script into. Activating the Command Block with a lever spawned a bat with the flag.
