@@ -33,3 +33,6 @@ I immediately started scanning the page for an SQL injection vulnerability. Usin
 ![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Incognito%20CTF%202022/Web/Web%20Challenge%202/Screenshot%20from%202022-04-23%2011-46-41.png)
 
 
+### 3. Web Challenge 3
+
+We have a form field asking for a 4-digit OTP. Using Burpsuite to perform a sniper brute-force attack on the OTP field revealed the next flag. 
