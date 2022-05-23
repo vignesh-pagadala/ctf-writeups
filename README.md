@@ -14,13 +14,38 @@ Writeups and files for all CTFs I've participated in.
 3. Vitamin G^a 		: https://ctftime.org/team/90760 (Defunct)
 
 ## CTFs:
+* San Diego CTF 2022
+	* Rank 			: -
+	* Team 			: VM2000
+	* Affiliation	: IT Security Team, JBS USA
+
+* Patriot CTF 2022
+	* Rank 			: 85/436
+	* Team 			: VM2000
+	* Affiliation	: IT Security Team, JBS USA
+
+* Incognito 3.0 2022
+	* Rank 			: 91/300
+	* Team 			: VM2000
+	* Affiliation	: IT Security Team, JBS USA
+
+* TAMU CTF 2022
+	* Rank 			: 177/476
+	* Team 			: VM2000
+	* Affiliation	: IT Security Team, JBS USA
+
+* Securinets CTF Quals 2022
+	* Rank 			: 126/255
+	* Team 			: V2000
+	* Affiliation	: IT Security Team, JBS USA
+
 * Nullcon HackIM 2022
-	- Rank 			: 64/898
-	- Team 			: Vitamin G^a
-	- Affiliation	: DBSec group, Colorado State University
+	* Rank 			: -
+	* Team 			: -
+	* Affiliation	: -
 
 * RITSEC CTF 2019
-	- Rank 			: 64/898
-	- Team 			: Vitamin G^a
-	- Affiliation	: DBSec group, Colorado State University
+	* Rank 			: 64/898
+	* Team 			: Vitamin G^a
+	* Affiliation	: DBSec group, Colorado State University
 
