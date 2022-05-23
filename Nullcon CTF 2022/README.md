@@ -1,10 +1,10 @@
 # Nullcon HackIM 2022
 
-Author			: Vignesh Pagadala
-Date			: 08APR2022
-CTF alias 		: sh0tgun
-Team 			: V2000
-Flags Captured	: 1
+* Author			: Vignesh Pagadala
+* Date				: 08APR2022
+* CTF alias 		: sh0tgun
+* Team 				: V2000
+* Flags Captured	: 1
 
 ---
 
