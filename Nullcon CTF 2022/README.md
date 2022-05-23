@@ -14,4 +14,4 @@ Challenge consists of a web input form. When text is entered into this form fiel
 
 ## Misc
 ### 1. Sanity Check
-A string is provided, that's it. It was clearly a base64 encoded string. We get the flag once this string is base64 decoded.
+A string is provided, that's it. It was clearly base64-encoded. We get the flag once this string is base64 decoded.
