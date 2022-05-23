@@ -4,7 +4,7 @@
 * Date				: 29APR2022
 * CTF alias 		: sh0tgun
 * Team 				: VM2000
-* Flags Captured	: 3
+* Flags Captured	: 4
 * Rank				: 85/436
 
 ---
@@ -45,3 +45,9 @@ I copied this text into dcode.fr and base64 decoded it three times. This reveale
 Going to this location showed a Pastebin link, which had the flag. 
 
 ![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Patriot%20CTF%202022/Web/Screenshot%20from%202022-04-29%2021-10-24.png)
+
+### 4. Web Challenge 4
+
+This was definitely more challenging. We are given a website and a form field, with the only other information being that it is running on top of a Golang server. I tried a few directory attacks using dirb, but that didn't reveal much except robots.txt which didn't have much. I then remembered that Golang has a in-built security feature to protect against Local File-Inclusion vulnerabilities. Any input containing '../' is stripped out, but this is only done for HTTP GET and POST requests. This gave me a clue that LFI might be involved. The LFI protection can be bypassed using the HTTP CONNECT method. I used curl with the -X CONNECT option, and the ../ payload worked! I was able to access the /etc/passwd file using /../../../etc/passwd as a payload, but wasn't sure how to proceed from here.
+
+Later during the day, the admins provided a hint that the flag was in the /root/ directory. So we were provided with the location of the flag, but did not know the name of the file to curl into. So I used ffuf to fuzz the directory, and that revealed the flag in the recipe.txt file.  
