@@ -71,5 +71,9 @@ Then I noticed some additional information provided in the challenge description
 
 After running for about 2 hours, the decryption key was revealed to be 694705124. Using this to unlock the PDF reveals the flag. 
 
+![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/TAMU%20CTF%202022/Crypto/Taxes/Screenshot%20from%202022-04-16%2021-48-58.png)
+
+![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/TAMU%20CTF%202022/Crypto/Taxes/Screenshot%20from%202022-04-16%2021-48-38.png)
+
 ## Misc
 ### 1. Gamer
