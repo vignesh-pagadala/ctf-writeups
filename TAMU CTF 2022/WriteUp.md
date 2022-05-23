@@ -63,7 +63,7 @@ This gives us the flag.
 ### 1. Taxes
 We are given an encrypted PDF that we have to break in to. Not much is revealed, except that the PDF is someone's tax return. I initially tried looking at the PDF metadata, and binwalk, with no luck. I tried a dictionary attack using rockyou.txt wordlist, which did not work either. 
 
-![](Screenshot from 2022-04-16 21-49-05.png)
+![](/Crypto/Taxes/Screenshot\_from\_2022-04-16\_21-49-05.png)
 
 Then I noticed some additional information provided in the challenge description - that it is someone's tax return being returned back to them. It is revealed that the tax preparer has used the customer's SSN to encrypt the PDF - this is the solution. Normally, brute-forcing the PDF would not be feasible, but since this information is provided, we can use it to limit the brute-force search space. In this case since customer SSN is used to encrypt the data, the key is 9 characters, where each character is the digit 0-9. I used pdfcrack with the following parameters to appropriately limit the search domain:
 
