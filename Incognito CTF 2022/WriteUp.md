@@ -22,9 +22,14 @@ I fired up Burpsuite, intercepted the request and found a form field hidden in t
 I wasn't exactly sure in what direction I had to proceed, but tried an SQL injection on the input field, and it worked! I used the standard SQL injection paylod ```' or 1=1 -- -``` which gave me the first flag. Alternatively, entering 'admin' into the form field also worked. 
 
 ![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Incognito%20CTF%202022/Web/Web%20Challenge%201/Screenshot%20from%202022-04-23%2008-42-25.png)
-![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Incognito%20CTF%202022/Web/Web%20Challenge%201/Screenshot%20from%202022-04-23%2008-59-43.png)
 
 
 ### 2. Web Challenge 2
+
+
+In the next page, we are giving a username-password login page. 
+![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Incognito%20CTF%202022/Web/Web%20Challenge%201/Screenshot%20from%202022-04-23%2008-59-43.png)
+I immediately started scanning the page for an SQL injection vulnerability. Using sqlmap made this easier, but it was obvious that the input field was being filtered for SQL injection. So I tried typical filter-evasion techniques using encoded strings for the SQL OR and AND clauses. This approach worked, taking me to the next page with the flag.
+![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Incognito%20CTF%202022/Web/Web%20Challenge%202/Screenshot%20from%202022-04-23%2011-46-41.png)
 
 
