@@ -31,7 +31,7 @@ In the next page, we are given a login page.
 
 ![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Incognito%20CTF%202022/Web/Web%20Challenge%201/Screenshot%20from%202022-04-23%2008-59-43.png)
 
-I immediately started scanning the page for an SQL injection vulnerability. Using sqlmap made this easier, but it was obvious that the input field was being filtered for SQL injection. So I tried typical filter-evasion techniques using encoded strings for the SQL OR and AND clauses. This approach worked, taking me to the next page with the flag.
+I immediately started scanning the page for an SQL injection vulnerability. Using sqlmap made this easier, but this didn't work. The challenge description indicated the existence of leaked credentials of one of the forum members whose username was 'cool.hacker.8'. Trying out this username in HaveIBeenPwned showed a set of credentials in a leak from a CTF website in 2014. Searching for these credentials in previously released password dumps revealed a matching username-password combination, with the password 'coolhax'. Trying these credentials gives us the next flag.
 
 ![](https://github.com/vignesh-pagadala/ctf-writeups/blob/main/Incognito%20CTF%202022/Web/Web%20Challenge%202/Screenshot%20from%202022-04-23%2011-46-41.png)
 
