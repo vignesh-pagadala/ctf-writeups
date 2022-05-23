@@ -4,7 +4,7 @@ Writeups and files for all CTFs I've participated in.
 
 ---
 
-## List of usernames:
+## Aliases:
 1. sh0tgun			: https://ctftime.org/user/70436 (Active, Current) 
 2. The_Boogeyman27	: https://ctftime.org/user/66994 (Defunct)
 
