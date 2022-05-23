@@ -41,8 +41,8 @@ Writeups and files for all CTFs I've participated in.
 
 * Nullcon HackIM 2022
 	* Rank 			: -
-	* Team 			: -
-	* Affiliation	: -
+	* Team 			: V2000
+	* Affiliation	: IT Security Team, JBS USA
 
 * RITSEC CTF 2019
 	* Rank 			: 64/898
