@@ -5,6 +5,7 @@
 * CTF alias 		: sh0tgun
 * Team 				: V2000
 * Flags Captured	: 1
+* Rank				: -
 
 ---
 
