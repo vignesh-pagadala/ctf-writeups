@@ -10,7 +10,7 @@ Writeups and files for all CTFs I've participated in.
 
 ## Teams:
 1. VM2000			: https://ctftime.org/team/182426 (Active) | Country Rank: 145/4339 (US) | World Rank: 2427/17950 a/o May 2022
-2. VM2000 			: https://ctftime.org/team/181740 (Defunct)
+2. V2000 			: https://ctftime.org/team/181740 (Defunct)
 3. Vitamin G^a 		: https://ctftime.org/team/90760 (Defunct)
 
 ## CTFs:
